@@ -1,9 +1,29 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family:georgia,"times new roman",times,serif,Helvetica,Verdana;
+  font-family: 'Libre Baskerville','Old Standard TT',georgia,"times new roman",times,Verdana;
   margin:0; 
 }
 .navbar {
   margin: 0;
+  font-family: 'Open Sans',Helvetica,Sans;
+  font-weight: 600;
+}
+h1 {
+  font-family: 'Open Sans',Helvetica,Sans;
+}
+h2 {
+  font-family: 'Open Sans',Helvetica,Sans;
+}
+h3 {
+  font-family: 'Open Sans',Helvetica,Sans;
+}
+h4 {
+  font-family: 'Open Sans',Helvetica,Sans;
+}
+h5 {
+  font-family: 'Open Sans',Helvetica,Sans;
+}
+p {
+  font-family: 'Libre Baskerville',georgia,times,Verdana;
 }
