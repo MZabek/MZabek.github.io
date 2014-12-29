@@ -4,6 +4,11 @@ body {
   font-family: 'Libre Baskerville','Old Standard TT',georgia,"times new roman",times,Verdana;
   margin:0; 
 }
+.jumbotron {
+  background: url(./assets/img/textures/textured_paper.png) repeat 0 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .navbar {
   margin: 0;
   font-family: 'Open Sans',Helvetica,Sans;
