@@ -3,5 +3,5 @@
 # Mike Zabek
 # 2017-07-27
 
-cd "/Users/zabek/Google Drive/website/mikezabek"
+cd "/Users/zabek/website/mikezabek"
 aws s3 sync ./ s3://mikezabek.com --exclude "*.DS_Store" --exclude ".git*" --exclude "archive/*" --exclude "WorkInProgressDraft.md" --exclude "Upload.sh" --delete
