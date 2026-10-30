@@ -32,3 +32,15 @@ h5 {
 p {
   font-family: 'Open Sans', serif;
 }
+#policy-publications .policy-publication-list > .panel {
+  background-color: #fff !important;
+  border: 2px solid #fff !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
+}
+#policy-publications .policy-publication-list > .panel > .panel-heading {
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+#policy-publications .policy-publication-list > .panel > .panel-body {
+  background-color: #fff !important;
+}
