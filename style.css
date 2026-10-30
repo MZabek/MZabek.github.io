@@ -1,46 +1,201 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: 'Open Sans', serif;
-  margin:0; 
-}
-.jumbotron {
-  background: url(./assets/img/textures/textured_paper.png) repeat 0 0;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-.navbar {
   margin: 0;
-  font-family: 'Merriweather', sans-serif;
-  font-weight: 600;
+  color: #333;
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  line-height: 1.42857143;
 }
-h1 {
-  font-family: 'Merriweather', sans-serif;
+
+a {
+  color: #337ab7;
+  text-decoration: none;
 }
-h2 {
-  font-family: 'Merriweather', sans-serif;
+
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
 }
+
+h1,
+h2,
 h3 {
   font-family: 'Merriweather', sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
 }
-h4 {
-  font-family: 'Open Sans', serif;
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
 }
-h5 {
-  font-family: 'Open Sans', serif;
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
 }
+
+h4,
+h5,
 p {
   font-family: 'Open Sans', serif;
 }
-#policy-publications .policy-publication-list > .panel {
-  background-color: #fff !important;
-  border: 2px solid #fff !important;
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.site-container {
+  max-width: none;
+  --bs-gutter-x: 30px;
+}
+
+@media (min-width: 768px) {
+  .site-container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .site-container {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-container {
+    max-width: 1170px;
+  }
+}
+
+.site-navbar {
+  min-height: 50px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #080808;
+  border-radius: 4px;
+  background-color: #222;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 600;
+}
+
+.site-navbar .navbar-brand {
+  margin-left: -15px;
+  margin-right: 0;
+  padding: 15px;
+  color: #9d9d9d;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.site-navbar .navbar-brand:hover,
+.site-navbar .navbar-brand:focus,
+.site-navbar .navbar-nav .nav-link:hover,
+.site-navbar .navbar-nav .nav-link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-navbar .navbar-nav .nav-link {
+  padding: 15px;
+  color: #9d9d9d;
+  line-height: 20px;
+}
+
+.site-navbar .navbar-toggler {
+  margin: 8px 0;
+  padding: 9px 10px;
+  border-color: #333;
+}
+
+.profile-hero {
+  margin-bottom: 30px;
+  padding: 25px 15px;
+  border-radius: 6px;
+  background: url(./assets/img/textures/textured_paper.png) repeat 0 0;
+}
+
+.site-navbar > .container-fluid {
+  --bs-gutter-x: 30px;
+}
+
+.policy-column {
+  padding: 19px 15px;
+  border-radius: 4px;
+  background: url(./assets/img/textures/textured_paper.png) repeat 0 0;
+}
+
+.content-well {
+  min-height: 20px;
+  margin-bottom: 20px;
+  padding: 19px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background: url(./assets/img/textures/textured_paper.png) repeat 0 0;
+}
+
+.publication-list {
+  margin-bottom: 20px;
+}
+
+.publication-card {
+  margin-bottom: 20px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background-color: #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
 }
-#policy-publications .policy-publication-list > .panel > .panel-heading {
-  background-color: #fff !important;
-  border-color: #fff !important;
+
+.publication-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 3px 3px 0 0;
+  background-color: #e7e7e7;
 }
-#policy-publications .policy-publication-list > .panel > .panel-body {
-  background-color: #fff !important;
+
+.publication-title {
+  margin: 0;
+  color: inherit;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.publication-body {
+  padding: 15px;
+  background-color: #fff;
+}
+
+@media (max-width: 767.98px) {
+  .site-navbar {
+    border-radius: 0;
+  }
+
+  .site-navbar .navbar-collapse {
+    margin: 0 -15px;
+    padding: 0 15px;
+    border-top: 1px solid #101010;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .site-navbar .navbar-nav .nav-link {
+    padding: 10px 15px;
+  }
 }
