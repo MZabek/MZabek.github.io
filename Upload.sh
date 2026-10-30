@@ -10,4 +10,4 @@ if [[ "${1:-}" == "--dryrun" ]]; then
   DRYRUN_ARGS+=(--dryrun)
 fi
 
-aws s3 sync ./ s3://mikezabek.com --exclude "*.DS_Store" --exclude ".git*" --exclude "archive/*" --exclude "WorkInProgressDraft.md" --exclude "Upload.sh" "${DRYRUN_ARGS[@]}"
+aws s3 sync ./ s3://mikezabek.com --exclude "*.DS_Store" --exclude ".git*" --exclude "archive/*" --exclude "WorkInProgressDraft.md" --exclude "TODO.md" --exclude "Upload.sh" "${DRYRUN_ARGS[@]}"
